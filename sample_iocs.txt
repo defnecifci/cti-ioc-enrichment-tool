@@ -1,0 +1,7 @@
+# Sample IOC list for testing
+# You can replace these with your own IOCs
+
+example.com
+paypal.com
+8.8.8.8
+http://test-login-security.com
