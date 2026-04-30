@@ -28,6 +28,7 @@ AbuseIPDB API
 URLScan API
 MITRE ATT&CK
 Project Structure
+```txt
 cti-ioc-enrichment-tool/
 ├── main.py
 ├── config.py
@@ -44,6 +45,8 @@ cti-ioc-enrichment-tool/
 │   ├── report_generator.py
 │   └── summary_exporter.py
 └── reports/
+```
+
 How to Run
 
 Install dependencies:
