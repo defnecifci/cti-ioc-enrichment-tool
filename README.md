@@ -31,6 +31,7 @@ MITRE ATT&CK Framework
 OSINT techniques
 
 ##  Project Structure
+```txt
 cti-ioc-enrichment-tool/
 │
 ├── main.py
@@ -52,6 +53,7 @@ cti-ioc-enrichment-tool/
     ├── report_*.txt
     ├── summary_*.json
     └── summary_*.csv
+```
 
 ##  How It Works
 User inputs a single IOC or a list of IOCs
