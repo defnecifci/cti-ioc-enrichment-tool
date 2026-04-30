@@ -1,33 +1,33 @@
-🛡️ Automated Threat Intelligence Enrichment & Phishing Detection Tool
-📌 Project Overview
+Automated Threat Intelligence Enrichment & Phishing Detection Tool
+Project Overview
 
-This project is a Python-based Cyber Threat Intelligence (CTI) automation tool designed to analyze suspicious Indicators of Compromise (IOCs) such as domains, URLs, and IP addresses.
+This project is a Python-based Cyber Threat Intelligence (CTI) automation tool designed to analyze suspicious Indicators of Compromise (IOCs), including domains, URLs, and IP addresses.
 
-The tool enriches IOCs using open-source threat intelligence APIs, calculates a risk score, maps findings to MITRE ATT&CK techniques, and generates structured threat intelligence reports.
+The tool enriches IOCs using open-source threat intelligence sources, calculates a risk score, maps findings to MITRE ATT&CK techniques, and generates structured threat intelligence reports.
 
-🎯 Purpose
+Purpose
 Automate IOC analysis
 Reduce manual investigation effort
 Provide actionable threat intelligence
-⚙️ Features
-IOC type detection (Domain / URL / IP)
+Features
+IOC type detection for domains, URLs, and IP addresses
 IOC normalization
-VirusTotal integration
-AbuseIPDB integration
+VirusTotal enrichment
+AbuseIPDB enrichment
 URLScan integration
-Risk scoring system
+Risk scoring
 MITRE ATT&CK mapping
 TXT report generation
 Batch IOC analysis
 JSON and CSV export
-🧰 Technologies
+Technologies
 Python
 REST APIs
 VirusTotal API
 AbuseIPDB API
 URLScan API
 MITRE ATT&CK
-📂 Project Structure
+Project Structure
 cti-ioc-enrichment-tool/
 ├── main.py
 ├── config.py
@@ -44,7 +44,7 @@ cti-ioc-enrichment-tool/
 │   ├── report_generator.py
 │   └── summary_exporter.py
 └── reports/
-🚀 How to Run
+How to Run
 
 Install dependencies:
 
@@ -55,20 +55,19 @@ Create .env file:
 VIRUSTOTAL_API_KEY=your_api_key
 ABUSEIPDB_API_KEY=your_api_key
 
-Run the tool:
+Run:
 
 python main.py
-📊 Example Use Cases
+Use Cases
 IOC enrichment
 Phishing detection
 Threat intelligence automation
 SOC analysis support
-🏁 Outcome
+Outcome
 
-This project demonstrates practical skills in:
+This project demonstrates:
 
 Cyber Threat Intelligence (CTI)
 OSINT
 Python automation
 API integration
-Risk-based analysis
