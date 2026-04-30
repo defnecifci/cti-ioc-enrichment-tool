@@ -1,15 +1,16 @@
-Automated Threat Intelligence Enrichment & Phishing Detection Tool
+# Automated Threat Intelligence Enrichment & Phishing Detection Tool
 Project Overview
 
 This project is a Python-based Cyber Threat Intelligence (CTI) automation tool designed to analyze suspicious Indicators of Compromise (IOCs), including domains, URLs, and IP addresses.
 
 The tool enriches IOCs using open-source threat intelligence sources, calculates a risk score, maps findings to MITRE ATT&CK techniques, and generates structured threat intelligence reports.
 
-Purpose
+# Purpose
 Automate IOC analysis
 Reduce manual investigation effort
 Provide actionable threat intelligence
-Features
+
+# Features
 IOC type detection for domains, URLs, and IP addresses
 IOC normalization
 VirusTotal enrichment
@@ -20,14 +21,16 @@ MITRE ATT&CK mapping
 TXT report generation
 Batch IOC analysis
 JSON and CSV export
-Technologies
+
+# Technologies
 Python
 REST APIs
 VirusTotal API
 AbuseIPDB API
 URLScan API
 MITRE ATT&CK
-Project Structure
+
+# Project Structure
 ```txt
 cti-ioc-enrichment-tool/
 ├── main.py
@@ -47,8 +50,7 @@ cti-ioc-enrichment-tool/
 └── reports/
 ```
 
-How to Run
-
+# How to Run
 Install dependencies:
 
 pip install -r requirements.txt
@@ -58,7 +60,7 @@ Create .env file:
 VIRUSTOTAL_API_KEY=your_api_key
 ABUSEIPDB_API_KEY=your_api_key
 
-Run:
+# Run:
 
 python main.py
 Use Cases
@@ -68,7 +70,7 @@ Threat intelligence automation
 SOC analysis support
 Outcome
 
-This project demonstrates:
+# This project demonstrates:
 
 Cyber Threat Intelligence (CTI)
 OSINT
