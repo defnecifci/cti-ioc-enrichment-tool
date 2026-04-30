@@ -58,6 +58,7 @@ pip install -r requirements.txt
 Create .env file:
 
 VIRUSTOTAL_API_KEY=your_api_key
+
 ABUSEIPDB_API_KEY=your_api_key
 
 # Run:
