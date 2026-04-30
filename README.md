@@ -11,7 +11,7 @@ Enriching IOCs with threat intelligence data
 Identifying malicious or suspicious indicators
 Generating actionable CTI reports
 
-## ⚙️ Features
+##  Features
 IOC type detection (Domain / URL / IP)
 IOC normalization
 VirusTotal integration
